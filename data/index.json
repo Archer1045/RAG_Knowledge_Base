@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-08-23T09:08:37.789867+00:00",
+  "sources": [
+    "faq.txt",
+    "instructions.txt",
+    "sites_geocoded.xlsx"
+  ],
+  "source_dir": "D:\\workSpace\\code\\骑手招聘助手",
+  "counts": {
+    "faq": 122,
+    "instructions": 45,
+    "sites": 218,
+    "districts": 12,
+    "chunks": 397
+  },
+  "districts": [
+    "东城区",
+    "丰台区",
+    "大兴区",
+    "房山区",
+    "昌平区",
+    "朝阳区",
+    "海淀区",
+    "石景山区",
+    "西城区",
+    "通州区",
+    "门头沟区",
+    "顺义区"
+  ],
+  "chunk_schema": {
+    "id": "string",
+    "source": "string",
+    "type": "faq|instruction|site|district",
+    "title": "string",
+    "content": "string",
+    "metadata": "object"
+  }
+}
