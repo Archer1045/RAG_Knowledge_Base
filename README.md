@@ -1,6 +1,6 @@
 # 骑手招聘助手 RAG 知识库
 
-根据 `骑手招聘助手` 目录下的三个源文件自动生成：
+根据 `ai-workbench` 目录下的三个源文件自动生成：
 
 - `faq.txt`：122 条招聘问答，按“问/答”拆成独立分块
 - `instructions.txt`：45 条岗位规则，按主题逐条拆成独立分块
@@ -42,7 +42,7 @@ D:\workSpace\code\.venv\Scripts\python.exe build_kb.py
 如果源文件不在上级目录，可以指定路径：
 
 ```powershell
-python build_kb.py D:\workSpace\code\骑手招聘助手
+python build_kb.py D:\workSpace\code\ai-workbench
 ```
 
 生成本地向量索引（首次会下载约 100MB 中文向量模型）：
